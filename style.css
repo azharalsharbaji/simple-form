@@ -45,7 +45,7 @@ form *,label{
 label ,input ,textarea
 {
     display: block;
-    width: 35%;
+    width: 36%;
 }
 label
 {
@@ -54,11 +54,11 @@ label
     background-color: #94106c;
     line-height: 1.5;
     color: #fff;
-
 }
 input{
     width: 35.2%;
     margin-bottom: 15px;
+    padding: .5%;
 }
 input[type="submit"],
 input[type="reset"]
@@ -72,4 +72,22 @@ input[type="reset"]
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover
+{
+    background: none;
+    color: #94106cdc;
+    border: 1px solid #94106cdc; 
+}
+input[type="reset"]:hover
+{
+    background: none;
+    color: #061099;
+    border: 1px solid #061099; 
+}
+::placeholder
+{
+    padding: 1%;
+    color: #94106cdc;
 }
