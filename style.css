@@ -40,8 +40,9 @@ legend
 form *,label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0 auto;
-    
-  }
+}
+form {margin-top: 8%;}
+  
 label ,input ,textarea
 {
     display: block;
@@ -49,7 +50,6 @@ label ,input ,textarea
 }
 label
 {
-    margin-bottom: 1px;
     padding-left: 5px;
     background-color: #94106c;
     line-height: 1.5;
